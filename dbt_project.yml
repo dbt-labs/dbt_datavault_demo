@@ -36,5 +36,18 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_new_project:
     # Applies to all files under models/example/
-    example:
-      materialized: view
+    a__raw_staging:
+      +tags: 'raw_staging'
+    b__vault_staging:
+      +tags: 'vault_staging'
+    c__raw_vault:
+      hubs:
+        +tags: 'hub'
+      links:
+        +tags: 'link'
+      satellites:
+        +tags: 'satellite'
+    d__business_vault:
+      +tags: 'business_vault'
+
+

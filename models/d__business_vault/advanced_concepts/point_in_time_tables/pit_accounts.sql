@@ -1,5 +1,5 @@
 
-{{ config(materialized='pit_incremental') }}
+{{ config(materialized='pit_incremental', enabled=false) }}
 
 {%- set yaml_metadata -%}
 source_model: hub_account

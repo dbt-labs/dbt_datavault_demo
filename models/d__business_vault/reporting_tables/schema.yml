@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: most_valuable_accounts_w_contacts
+    description: Reporting table to later surface in Power BI
+    columns:
+      - name: company_name
+        description: Hash representation of the business key
+      - name: contact_full_name
+        description: the full name of the contact
+        tests:
+          - unique
+          - not_null
+      - name: opportunity_amount
+        description: the sum of revenue generated

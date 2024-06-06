@@ -1,0 +1,89 @@
+models:
+  - name: stg_salesforce_accounts
+    columns:
+      - name: account_id
+        tests:
+          - unique
+          - not_null
+      - name: is_deleted
+        tests:
+          - not_null
+      - name: master_record_id
+      - name: company_name
+        tests:
+          - not_null
+      - name: type
+      - name: parent_id
+      - name: billing_street
+      - name: billing_city
+      - name: billing_state
+      - name: billing_postal_code
+      - name: billing_country
+      - name: billing_latitude
+      - name: billing_longitude
+      - name: billing_geocode_accuracy
+      - name: shipping_street
+      - name: shipping_city
+      - name: shipping_state
+      - name: shipping_postal_code
+      - name: shipping_country
+      - name: shipping_latitude
+      - name: shipping_longitude
+      - name: shipping_geocode_accuracy
+      - name: phone
+      - name: fax
+      - name: account_number
+      - name: website
+      - name: photo_url
+      - name: sic
+      - name: industry
+      - name: annual_revenue
+      - name: number_of_employees
+      - name: ownership
+      - name: ticker_symbol
+      - name: description
+      - name: rating
+      - name: site
+      - name: owner_id
+        tests:
+          - not_null
+      - name: created_date
+        tests:
+          - not_null
+      - name: created_by_id
+        tests:
+          - not_null
+      - name: last_modified_date
+        tests:
+          - not_null
+      - name: last_modified_by_id
+        tests:
+          - not_null
+      - name: system_modstamp
+        tests:
+          - not_null
+      - name: last_activity_date
+      - name: last_viewed_date
+      - name: last_referenced_date
+      - name: jigsaw
+      - name: jigsaw_company_id
+      - name: clean_status
+      - name: account_source
+      - name: duns_number
+      - name: tradestyle
+      - name: naics_code
+      - name: naics_desc
+      - name: year_started
+      - name: sic_desc
+      - name: dandb_company_id
+      - name: operating_hours_id
+      - name: customer_priority_c
+      - name: sla_c
+      - name: active_c
+      - name: numberof_locations_c
+      - name: upsell_opportunity_c
+      - name: slaserial_number_c
+      - name: slaexpiration_date_c
+      - name: deleted_datetimestamp
+      - name: created_datetimestamp
+      - name: modified_datetimestamp

@@ -1,0 +1,209 @@
+models:
+  - name: stg_salesforce_accounts
+    columns:
+      - name: ACCOUNT_ID
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_ACC_ID
+        tests:
+          - unique
+          - not_null
+      - name: IS_DELETED
+        tests:
+          - not_null
+      - name: MASTER_RECORD_ID
+        tests:
+          - not_null
+      - name: COMPANY_NAME
+        tests:
+          - not_null
+      - name: TYPE
+        tests:
+          - not_null
+      - name: PARENT_ID
+        tests:
+          - not_null
+      - name: BILLING_STREET
+        tests:
+          - not_null
+      - name: BILLING_CITY
+        tests:
+          - not_null
+      - name: BILLING_STATE
+        tests:
+          - not_null
+      - name: BILLING_POSTAL_CODE
+        tests:
+          - not_null
+      - name: BILLING_COUNTRY
+        tests:
+          - not_null
+      - name: BILLING_LATITUDE
+        tests:
+          - not_null
+      - name: BILLING_LONGITUDE
+        tests:
+          - not_null
+      - name: BILLING_GEOCODE_ACCURACY
+        tests:
+          - not_null
+      - name: SHIPPING_STREET
+        tests:
+          - not_null
+      - name: SHIPPING_CITY
+        tests:
+          - not_null
+      - name: SHIPPING_STATE
+        tests:
+          - not_null
+      - name: SHIPPING_POSTAL_CODE
+        tests:
+          - not_null
+      - name: SHIPPING_COUNTRY
+        tests:
+          - not_null
+      - name: SHIPPING_LATITUDE
+        tests:
+          - not_null
+      - name: SHIPPING_LONGITUDE
+        tests:
+          - not_null
+      - name: SHIPPING_GEOCODE_ACCURACY
+        tests:
+          - not_null
+      - name: PHONE
+        tests:
+          - not_null
+      - name: FAX
+        tests:
+          - not_null
+      - name: ACCOUNT_NUMBER
+        tests:
+          - not_null
+      - name: WEBSITE
+        tests:
+          - not_null
+      - name: PHOTO_URL
+        tests:
+          - not_null
+      - name: SIC
+        tests:
+          - not_null
+      - name: INDUSTRY
+        tests:
+          - not_null
+      - name: ANNUAL_REVENUE
+        tests:
+          - not_null
+      - name: NUMBER_OF_EMPLOYEES
+        tests:
+          - not_null
+      - name: OWNERSHIP
+        tests:
+          - not_null
+      - name: TICKER_SYMBOL
+        tests:
+          - not_null
+      - name: DESCRIPTION
+        tests:
+          - not_null
+      - name: RATING
+        tests:
+          - not_null
+      - name: SITE
+        tests:
+          - not_null
+      - name: OWNER_ID
+        tests:
+          - not_null
+      - name: CREATED_DATE
+        tests:
+          - not_null
+      - name: CREATED_BY_ID
+        tests:
+          - not_null
+      - name: LAST_MODIFIED_DATE
+        tests:
+          - not_null
+      - name: LAST_MODIFIED_BY_ID
+        tests:
+          - not_null
+      - name: SYSTEM_MODSTAMP
+        tests:
+          - not_null
+      - name: LAST_ACTIVITY_DATE
+        tests:
+          - not_null
+      - name: LAST_VIEWED_DATE
+        tests:
+          - not_null
+      - name: LAST_REFERENCED_DATE
+        tests:
+          - not_null
+      - name: JIGSAW
+        tests:
+          - not_null
+      - name: JIGSAW_COMPANY_ID
+        tests:
+          - not_null
+      - name: CLEAN_STATUS
+        tests:
+          - not_null
+      - name: ACCOUNT_SOURCE
+        tests:
+          - not_null
+      - name: DUNS_NUMBER
+        tests:
+          - not_null
+      - name: TRADESTYLE
+        tests:
+          - not_null
+      - name: NAICS_CODE
+        tests:
+          - not_null
+      - name: NAICS_DESC
+        tests:
+          - not_null
+      - name: YEAR_STARTED
+        tests:
+          - not_null
+      - name: SIC_DESC
+        tests:
+          - not_null
+      - name: DANDB_COMPANY_ID
+        tests:
+          - not_null
+      - name: OPERATING_HOURS_ID
+        tests:
+          - not_null
+      - name: CUSTOMER_PRIORITY_C
+        tests:
+          - not_null
+      - name: SLA_C
+        tests:
+          - not_null
+      - name: ACTIVE_C
+        tests:
+          - not_null
+      - name: NUMBEROF_LOCATIONS_C
+        tests:
+          - not_null
+      - name: UPSELL_OPPORTUNITY_C
+        tests:
+          - not_null
+      - name: SLASERIAL_NUMBER_C
+        tests:
+          - not_null
+      - name: SLAEXPIRATION_DATE_C
+        tests:
+          - not_null
+      - name: DELETED_DATETIMESTAMP
+        tests:
+          - not_null
+      - name: CREATED_DATETIMESTAMP
+        tests:
+          - not_null
+      - name: MODIFIED_DATETIMESTAMP
+        tests:
+          - not_null

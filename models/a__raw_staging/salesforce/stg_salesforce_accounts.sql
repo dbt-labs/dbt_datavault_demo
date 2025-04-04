@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='id'
+    )
+}}
+
+
 with 
 
 source as (
@@ -9,7 +17,8 @@ source as (
 renamed as (
 
     select
-        id as account_id,
+        --id as account_id,
+        id as order_acc_id,
         is_deleted,
         master_record_id,
         name as company_name,

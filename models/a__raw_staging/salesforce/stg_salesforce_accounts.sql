@@ -9,7 +9,7 @@ source as (
 renamed as (
 
     select
-        id as account_id,
+        id2 as account_id,
         is_deleted,
         master_record_id,
         name as company_name,

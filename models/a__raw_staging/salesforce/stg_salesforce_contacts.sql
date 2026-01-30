@@ -63,9 +63,7 @@ renamed as (
         is_email_bounced,
         photo_url,
         jigsaw,
-        jigsaw_contact_id,
-        clean_status,
-        individual_id,
+  
         level_c,
         languages_c,
         deleted_datetimestamp,
